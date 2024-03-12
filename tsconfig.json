@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2021",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "./build",                          
+        "rootDir": "src",
+        "allowJs": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "src",
+        // "paths": {
+        //   "controllers/*": ["controllers/*"],
+        //   "db/*": ["db/*"],
+        //   "services/*": ["services/*"],
+        // }
+      },
+      "lib": ["es5", "es6", "es2015", "es2021"]
+}
